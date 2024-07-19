@@ -1,0 +1,18 @@
+.usf-hide-sale .t4s-product-badge .t4s-badge-sale,
+.usf-hide-soldout .t4s-product-badge .t4s-badge-soldout,
+body:not(.usf-collections-page) .usf-sr-inputbox,
+.usf-hide-theme-search [data-cat-search],
+.usf-hide-theme-search .t4s-mini-search__title,
+.usf-hide-theme-search .t4s-drawer__content,
+.usf-hide-theme-search [data-results-search],
+.usf-has-container button.t4s-btn-sidebar,.usf-hide-theme-search .t4s-sidebar.t4s-dn{
+    display: none !important;
+}
+
+.usf-hide-theme-search .t4s-container .t4s-main-collection-search{
+    width: 100%
+}
+.usf-has-container .t4s-product-badge[data-product-badge] {
+    position: unset!important;
+    margin-bottom: 5px;
+}
